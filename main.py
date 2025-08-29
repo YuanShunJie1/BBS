@@ -5,7 +5,7 @@ import torchvision.transforms as transforms
 from data.cifar import CIFAR10, CIFAR100
 from data.mnist import MNIST
 import argparse, sys
-from algorithm.bss import BSS
+from algorithm.bss_ds import BSS
 from data.fmnist import FMNIST
 import numpy as np
 

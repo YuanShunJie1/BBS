@@ -113,7 +113,8 @@ if args.dataset == 'cifar100':
     args.epoch_decay_start = 100
     filter_outlier = False
     args.model_type = "cnn"
-
+    #args.times = 10
+    #args.w_alpha = 0.9
     train_dataset = CIFAR100(root='./data/',
                              download=True,
                              train=True,
